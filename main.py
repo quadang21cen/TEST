@@ -14,4 +14,4 @@ async def root():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", port=8000, host= '0.0.0.0', ssl_keyfile="key.pem", ssl_certfile="cert.pem")
+    uvicorn.run("main:app", port=443, host= '0.0.0.0', ssl_keyfile="key.pem", ssl_certfile="cert.pem")
